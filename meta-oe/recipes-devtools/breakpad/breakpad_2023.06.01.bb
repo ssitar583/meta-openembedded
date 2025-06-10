@@ -40,6 +40,7 @@ SRC_URI = "git://github.com/google/breakpad;name=breakpad;branch=main;protocol=h
            file://0001-Fixed-missing-include-for-std-find_if.patch \
            file://0001-lss-Match-syscalls-to-match-musl.patch;patchdir=src/third_party/lss \
            file://mips_asm_sgidefs.patch;patchdir=src/third_party/lss \
+           file://rdkemw-124-dbg.patch \
 "
 S = "${WORKDIR}/git"
 
